@@ -1,0 +1,19 @@
+body {
+  background-color: red;
+  margin: 0;
+}
+
+.App{
+   /* padding: 4rem; */
+}
+
+#root {
+  background-color: aqua;
+  width: 100% !important;
+  margin: none;
+}
+
+
+.card {
+  /* padding: 2em; */
+}

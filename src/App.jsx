@@ -1,12 +1,13 @@
-
-import './App.css'
+import './assets/css/App.css'
+import Navbar from './components/Navbar.jsx'
+import { Outlet } from 'react-router-dom';
 
 function App() {
 
   return (
     <>
-      <h1>This is for the chrono gospel</h1>
-      <h3>It will have maps and other things added</h3>
+      <Navbar />
+      <Outlet />
     </>
   )
 }
